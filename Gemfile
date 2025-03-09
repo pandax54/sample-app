@@ -72,3 +72,9 @@ end
 group :production do
   gem "pg", ">= 1.1", "< 2.0"
 end
+
+gem "cssbundling-rails", "~> 1.4"
+gem 'redis'
+gem 'hotwire-rails'
+gem 'hotwire-livereload' 
+gem "tailwindcss-rails", "~> 3.3.1"
