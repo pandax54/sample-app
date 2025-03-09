@@ -1,8 +1,5 @@
-// Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import "controllers"
-import "hotwire-livereload"
-import { Turbo } from "@hotwired/turbo-rails"
 import debounce from "debounce";
+import { Turbo } from "@hotwired/turbo-rails";  // Make sure Turbo is imported
 
 var hotwire_livereload_received_default = debounce(({ force_reload }) => {
   const onErrorPage = document.title === "Action Controller: Exception caught";
