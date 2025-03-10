@@ -1,9 +1,17 @@
 <% provide(:title, "Home | Ruby on Rails Tutorial Sample App") %>
 
-<h1 class="text-5xl mb-10 text-gray-400">Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
+<div class="flex flex-col items-center bg-gray-300 p-10">
+  <h1 class="text-5xl mb-10 text-gray-800 center">Welcome to the Sample App</h1>
+  <p>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </p>
+  <button type="button" 
+    class="bg-blue-500 text-white rounded-full px-4 py-2 hover:bg-blue-800 hover:text-white transition duration-300 m-10" 
+    onclick="window.location.href='<%= signup_path %>'">
+    Sign up now!
+  </button>
+
+</div>
 
