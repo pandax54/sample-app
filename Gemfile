@@ -72,3 +72,13 @@ end
 group :production do
   gem "pg", ">= 1.1", "< 2.0"
 end
+
+gem "hotwire-livereload", "~> 2.0", :group => :development
+
+gem "cssbundling-rails", "~> 1.4"
+
+# tailwindcss-rails is a Ruby gem that provides integration for Ruby on Rails projects with Tailwind CSS [
+gem "tailwindcss-rails"
+gem "turbolinks", "~> 5"
+
+
